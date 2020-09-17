@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+}
+.picture {
+    width: 12%;
+
+    position: relative;
+}
+img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.comment {
+    margin: 5px;
+    width: 60%;
+}
+
+@media only screen and (max-width: 680px) {
+    .comment-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .picture {
+        width: 100%;
+        display: block;
+    }
+    .comment {
+        width: 100%;
+        display: block;
+    }
+}
